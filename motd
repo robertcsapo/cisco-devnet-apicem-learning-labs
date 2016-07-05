@@ -19,9 +19,10 @@
 ███████╗███████╗██║  ██║██║  ██║██║ ╚████║██║██║ ╚████║╚██████╔╝    ███████╗██║  ██║██████╔╝
 ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝     ╚══════╝╚═╝  ╚═╝╚═════╝
 
-		   *****    Start the Cisco APIC-EM REST API Lab    ****
-		   * https://learninglabs.cisco.com/lab/apic-em/step/1 *
-		   *						       *
-		   * Lab Material in folder apicem-ga-ll-sample-code/  *
-		   *****************************************************
-	                       https://developer.cisco.com
+		   *****           Start the Cisco APIC-EM REST API Lab           ****
+		   *        https://learninglabs.cisco.com/lab/apic-em/step/1        *
+		   *						                     *
+		   * Lab Material in folder apicem-ga-1.2-ll-sample-code-basic-labs  *
+		   *                        apicem-ga-1.2-ll-sample-code-policy-labs *
+		   *******************************************************************
+		                       https://developer.cisco.com

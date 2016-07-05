@@ -1,5 +1,7 @@
 # Cisco APIC-EM REST API Learning Labs  
 https://learninglabs.cisco.com/lab/apic-em/step/1  
+https://github.com/CiscoDevNet/apicem-ga-1.2-ll-sample-code-basic-labs  
+https://github.com/CiscoDevNet/apicem-ga-1.2-ll-sample-code-policy-labs.git  
 https://github.com/CiscoDevNet/apicem-ga-ll-sample-code
 
 ## Table of contents
@@ -30,7 +32,7 @@ With persistent storage
 
 Cool, then just use the environment variables for the docker container  
 ```
-docker run --rm -it \  
+docker run --rm -it \
 -e APICEM_IP=sandboxapic.cisco.com \
 -e APICEM_USER=devnetuser \
 -e APICEM_PASSWORD=Cisco123! \
@@ -47,4 +49,4 @@ docker build -t robertcsapo/cisco-devnet-apicem-learning-labs:latest .
 ## Start the Cisco APIC-EM REST API Lab  
 https://learninglabs.cisco.com/lab/apic-em/step/1  
 
-Lab Material in folder apicem-ga-ll-sample-code/  
+Lab Material in /root/ 
