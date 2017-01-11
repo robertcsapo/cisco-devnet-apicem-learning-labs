@@ -1,5 +1,6 @@
 # Cisco APIC-EM REST API Learning Labs  
-https://learninglabs.cisco.com/lab/apic-em/step/1  
+https://learninglabs.cisco.com/modules/net-controllers  
+https://github.com/CiscoDevNet/apicem-1.3-LL-sample-codes  
 https://github.com/CiscoDevNet/apicem-ga-1.2-ll-sample-code-basic-labs  
 https://github.com/CiscoDevNet/apicem-ga-1.2-ll-sample-code-policy-labs.git  
 https://github.com/CiscoDevNet/apicem-ga-ll-sample-code
@@ -47,6 +48,6 @@ docker build -t robertcsapo/cisco-devnet-apicem-learning-labs:latest .
 ```
 
 ## Start the Cisco APIC-EM REST API Lab  
-https://learninglabs.cisco.com/lab/apic-em/step/1  
+https://learninglabs.cisco.com/modules/net-controllers
 
-Lab Material in /root/ 
+Lab Material in /root/

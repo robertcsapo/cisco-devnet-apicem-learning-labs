@@ -1,13 +1,14 @@
 # Step 1
 # Change apic-em IP to the one you are using
-# ip =  "sandboxapic.cisco.com"
+# apicem_ip =  "sandboxapic.cisco.com"
+# apicem_ip is a string
 
 import os         # For passing arg from Docker
 
 if 'APICEM_IP' in os.environ:
-    ip = os.environ['APICEM_IP']
+    APICEM_IP = os.environ['APICEM_IP']
 else:
-    ip = "devnetapi.cisco.com/sandbox/apic_em"
+    APICEM_IP = "devnetapi.cisco.com/sandbox/apic_em"
 
 
 
@@ -16,13 +17,13 @@ else:
 # If you assign username, password and version here you don't need to pass parameter when calling
 
 if 'APICEM_USER' in os.environ:
-    username = os.environ['APICEM_USER']
+    USERNAME = os.environ['APICEM_USER']
 else:
-    username = "devnetuser"
+    USERNAME = "devnetuser"
 
 if 'APICEM_PASSWORD' in os.environ:
-    password = os.environ['APICEM_PASSWORD']
+    PASSWORD = os.environ['APICEM_PASSWORD']
 else:
-    password = password = "Cisco123!"
+    PASSWORD = password = "Cisco123!"
 
-version = "v1"
+VERSION = "v1"
